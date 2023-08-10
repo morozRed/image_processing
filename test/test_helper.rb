@@ -2,6 +2,7 @@ require "bundler/setup"
 
 ENV["MT_NO_EXPECTATIONS"] = "1" # disable Minitest's expectations monkey-patches
 
+require "minitest/unit"
 require "minitest/autorun"
 require "minitest/pride"
 
