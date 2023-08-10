@@ -20,8 +20,8 @@ Gem::Specification.new do |spec|
   spec.add_dependency "ruby-vips", ">= 2.1.4", "< 3"
 
   spec.add_development_dependency "rake"
-  spec.add_development_dependency "minitest", "~> 5.8"
-  spec.add_development_dependency "minitest-hooks", ">= 1.4.2"
+  spec.add_development_dependency "minitest", "~> 5.19"
+  spec.add_development_dependency "minitest-hooks", ">= 1.5"
   spec.add_development_dependency "minispec-metadata"
   spec.add_development_dependency "dhash-vips"
 end
